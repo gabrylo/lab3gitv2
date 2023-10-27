@@ -46,21 +46,21 @@
             // 
             // textBoxSize
             // 
-            this.textBoxSize.Location = new System.Drawing.Point(99, 103);
+            this.textBoxSize.Location = new System.Drawing.Point(99, 104);
             this.textBoxSize.Name = "textBoxSize";
             this.textBoxSize.Size = new System.Drawing.Size(100, 20);
             this.textBoxSize.TabIndex = 1;
             // 
             // textBoxPercentage
             // 
-            this.textBoxPercentage.Location = new System.Drawing.Point(99, 140);
+            this.textBoxPercentage.Location = new System.Drawing.Point(99, 141);
             this.textBoxPercentage.Name = "textBoxPercentage";
             this.textBoxPercentage.Size = new System.Drawing.Size(100, 20);
             this.textBoxPercentage.TabIndex = 2;
             // 
             // textBoxNumber
             // 
-            this.textBoxNumber.Location = new System.Drawing.Point(99, 177);
+            this.textBoxNumber.Location = new System.Drawing.Point(99, 178);
             this.textBoxNumber.Name = "textBoxNumber";
             this.textBoxNumber.Size = new System.Drawing.Size(100, 20);
             this.textBoxNumber.TabIndex = 3;
