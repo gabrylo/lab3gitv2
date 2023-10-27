@@ -23,6 +23,13 @@ namespace lab3gitv2
             double alcoholPercentage = Convert.ToDouble(textBoxPercentage.Text);
             int numberOfContainers = Convert.ToInt32(textBoxNumber.Text);
 
+            double beverageVolume = containerSize * numberOfContainers;
+
+            double pureAlcoholVolume = (beverageVolume * alcoholPercentage) / 100;
+
+            MessageBox.Show("Beverage volume: " + beverageVolume.ToString("0.00") + " ml", "Result", MessageBoxButtons.OK);
+            MessageBox.Show("Pure alcohol volume: " + pureAlcoholVolume.ToString("0.00") + " ml", "Result", MessageBoxButtons.OK);
+
         }
     }
 }
