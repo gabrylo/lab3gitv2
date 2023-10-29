@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace lab3gitv2
@@ -15,6 +8,7 @@ namespace lab3gitv2
         public Form1()
         {
             InitializeComponent();
+            this.Text = "Alcohol";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -23,9 +17,6 @@ namespace lab3gitv2
             int numberOfContainers;
             if (double.TryParse(textBoxSize.Text, out containerSize) && double.TryParse(textBoxPercentage.Text, out alcoholPercentage) && int.TryParse(textBoxNumber.Text, out numberOfContainers))
             {
-                //double containerSize = Convert.ToDouble(textBoxSize.Text);
-                //double alcoholPercentage = Convert.ToDouble(textBoxPercentage.Text);
-                //int numberOfContainers = Convert.ToInt32(textBoxNumber.Text);
 
                 double beverageVolume = containerSize * numberOfContainers;
 
