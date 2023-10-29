@@ -37,7 +37,7 @@ namespace lab3gitv2
             }
             else
             {
-                MessageBox.Show("źle wprowadzony. Please enter valid numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Invalid input. Please enter valid numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
