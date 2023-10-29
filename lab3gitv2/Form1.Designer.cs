@@ -32,6 +32,8 @@
             this.textBoxSize = new System.Windows.Forms.TextBox();
             this.textBoxPercentage = new System.Windows.Forms.TextBox();
             this.textBoxNumber = new System.Windows.Forms.TextBox();
+            this.labelBeverageVolume = new System.Windows.Forms.Label();
+            this.labelPureAlcoholVolume = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -65,17 +67,38 @@
             this.textBoxNumber.Size = new System.Drawing.Size(100, 20);
             this.textBoxNumber.TabIndex = 3;
             // 
+            // labelBeverageVolume
+            // 
+            this.labelBeverageVolume.AutoSize = true;
+            this.labelBeverageVolume.Location = new System.Drawing.Point(350, 194);
+            this.labelBeverageVolume.Name = "labelBeverageVolume";
+            this.labelBeverageVolume.Size = new System.Drawing.Size(35, 13);
+            this.labelBeverageVolume.TabIndex = 4;
+            this.labelBeverageVolume.Text = "label1";
+            // 
+            // labelPureAlcoholVolume
+            // 
+            this.labelPureAlcoholVolume.AutoSize = true;
+            this.labelPureAlcoholVolume.Location = new System.Drawing.Point(350, 224);
+            this.labelPureAlcoholVolume.Name = "labelPureAlcoholVolume";
+            this.labelPureAlcoholVolume.Size = new System.Drawing.Size(35, 13);
+            this.labelPureAlcoholVolume.TabIndex = 5;
+            this.labelPureAlcoholVolume.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelPureAlcoholVolume);
+            this.Controls.Add(this.labelBeverageVolume);
             this.Controls.Add(this.textBoxNumber);
             this.Controls.Add(this.textBoxPercentage);
             this.Controls.Add(this.textBoxSize);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,6 +110,8 @@
         private System.Windows.Forms.TextBox textBoxSize;
         private System.Windows.Forms.TextBox textBoxPercentage;
         private System.Windows.Forms.TextBox textBoxNumber;
+        private System.Windows.Forms.Label labelBeverageVolume;
+        private System.Windows.Forms.Label labelPureAlcoholVolume;
     }
 }
 
